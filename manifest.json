@@ -1,0 +1,16 @@
+{
+  "name": "Clean Up the Web",
+  "description": "Firefox extension that cleans up the web.",
+  "manifest_version": 2,
+  "version": "1.0.1",
+  "icons": {
+    "48": "icons/icon.svg",
+    "96": "icons/icon.svg"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["main.js"]
+    }
+  ]
+}

@@ -12,7 +12,8 @@
     "lint:js": "eslint main.js config.js",
     "lint:js:fix": "eslint main.js --fix && eslint config.js --fix",
     "build": "web-ext --config=config.js build",
-    "sign": "web-ext sign --api-key=$AMO_JWT_ISSUER --api-secret=$AMO_JWT_SECRET"
+    "sign": "web-ext sign --api-key=$AMO_JWT_ISSUER --api-secret=$AMO_JWT_SECRET",
+    "release": "npm run lint && npm run build && npm run sign"
   },
   "repository": {
     "type": "git",
@@ -30,7 +31,9 @@
   "homepage": "https://github.com/paulshryock/clean-up-the-web#readme",
   "devDependencies": {
     "eslint": "^7.12.1",
+    "eslint-config-prettier": "^6.15.0",
     "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.1.2",
     "web-ext": "^5.3.0"
   }
 }

@@ -17,6 +17,9 @@ and this project adheres to [Semantic Versioning][semver].
 
 ## 1.0.1 - 2020-10-27 - Fixed linting
 
+### Changed
+- Update icon location
+
 ### Fixed
 - Fix dependencies
 - Fix linting

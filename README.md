@@ -11,7 +11,7 @@ This is an open source project which uses the [The Hippocratic License][license]
 - `npm run build`: Build the extension for production and output `.zip` file in `web-ext-artifacts/` directory
 - `npm run sign`: Sign the extension
 
-To sign the extension:
+## Signing
 
 1. Get new JWT tokens: https://addons.mozilla.org/en-US/developers/addon/api/key/
 2. Set `AMO_JWT_ISSUER` and `AMO_JWT_SECRET` environment variables

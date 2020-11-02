@@ -1,14 +1,15 @@
 const attributes = ["id", "class"];
-const regexTypes = ["^", "$", "*"];
+const regexTypes = ["^", "$", "*", ""];
 const names = [
-	{ short: "ad" },
-	{ short: "Ad" },
-	{ short: "AD" },
-	{ short: "adfuel" },
-	{ long: "adblock" },
-	{ long: "DisplayAd" },
-	{ long: "onetrust" },
-	{ long: "sap-insights" },
+	{ prefixSuffix: "ad" },
+	{ prefixSuffix: "Ad" },
+	{ prefixSuffix: "AD" },
+	{ contains: "adfuel" },
+	{ contains: "adblock" },
+	{ contains: "DisplayAd" },
+	{ contains: "onetrust" },
+	{ contains: "sap-insights" },
+	{ contains: "cookie" },
 	{ exact: "taw" },
 ];
 
@@ -24,21 +25,22 @@ attributes.forEach((attribute) => {
 		names.forEach((name) => {
 			separators.forEach((separator) => {
 				if (
-					(regexType === "*" && name.long) ||
-					(regexType !== "*" && name.short)
+					((regexType === "^" || regexType === "$") && name.prefixSuffix) ||
+					(regexType === "*" && name.contains) ||
+					(regexType === "" && name.exact)
 				) {
 					const selector =
 						"[" +
 						attribute +
 						regexType +
 						'="' +
-						(regexType === "^" ? separator : "") +
+						(regexType === "$" ? separator : "") +
 						(regexType === "*"
-							? name.long
+							? name.contains
 							: regexType === ""
 							? name.exact
-							: name.short) +
-						(regexType === "$" ? separator : "") +
+							: name.prefixSuffix) +
+						(regexType === "^" ? separator : "") +
 						'"]';
 					if (!selectors.includes(selector)) selectors.push(selector);
 				}
@@ -46,6 +48,7 @@ attributes.forEach((attribute) => {
 		});
 	});
 });
+console.debug(selectors);
 
 /**
  * Get the latest group of DOM elements matching the selectors, loop through,

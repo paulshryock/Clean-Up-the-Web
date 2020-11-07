@@ -1,8 +1,6 @@
 <h1 align="center">Clean Up the Web</h1>
 
-<p align="center"><a href="https://addons.mozilla.org/en-US/android/addon/clean-up-the-web/">Install on Firefox</a></p>
-
-<br><br>
+<p align="center"><a href="https://addons.mozilla.org/en-US/android/addon/clean-up-the-web/">Install on Firefox</a></p><br><br>
 
 Hi! 👋 Thanks for checking out this browser extension made by [Paul Shryock](https://github.com/paulshryock). I hope you find it useful!
 
@@ -27,7 +25,7 @@ This is an open source project which uses the [The Hippocratic License][license]
 
 ### Download
 
-- [Binary and source code](https://github.com/paulshryock/Clean-Up-the-Web/releases/latest)
+- [Binary and source code](https://github.com/paulshryock/Clean-Up-the-Web/releases/latest) from GitHub
 
 ## Development
 

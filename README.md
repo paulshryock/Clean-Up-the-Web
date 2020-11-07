@@ -1,8 +1,8 @@
 <h1 align="center">Clean Up the Web</h1>
 
-<p align="center">[Install on Firefox](https://addons.mozilla.org/en-US/android/addon/clean-up-the-web/)</p>
+<p align="center"><a href="https://addons.mozilla.org/en-US/android/addon/clean-up-the-web/">Install on Firefox</a></p>
 
----
+<br><br>
 
 Hi! 👋 Thanks for checking out this browser extension made by [Paul Shryock](https://github.com/paulshryock). I hope you find it useful!
 

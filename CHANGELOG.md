@@ -15,27 +15,27 @@ and this project adheres to [Semantic Versioning][semver].
 ### Security
 -->
 
-## 1.0.2 - 2020-10-27 - Fixed regexes, update names
+## 1.0.2 - 2020-10-27 - Fixed DOM element removal, initial Firefox release
 
 ### Changed
-- Update names
+- Update list of selectors to match [#8]
 
 ### Fixed
-- Fix regexes
+- Fix regexes which build the array of selectors [#8]
 
-## 1.0.1 - 2020-10-27 - Fixed linting
+## 1.0.1 - 2020-10-27 - Fixed JavaScript linting
 
 ### Changed
-- Update icon location
+- Update icon file location
 
 ### Fixed
 - Fix dependencies
-- Fix linting
+- Fix JavaScript file linting
 
-## 1.0.0 - 2020-10-27 - Initial Release
+## 1.0.0 - 2020-10-27 - Initial release
 
 ### Added
-- Initial release
+- Remove DOM elements which match certain selectors [#8]
 
 [changelog]: https://keepachangelog.com/en/1.0.0/
 [semver]: https://semver.org/spec/v2.0.0.html

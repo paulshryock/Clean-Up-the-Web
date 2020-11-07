@@ -8,7 +8,7 @@ Hi! 👋 Thanks for checking out this browser extension made by [Paul Shryock](h
 
 [Here is a roadmap of planned enhancements](https://github.com/paulshryock/Clean-Up-the-Web/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement) to CUTW, which will aim to improve the accessibility, security, performance, user experience, and user privacy of websites (nicely and unobtrusively).
 
-Any future versions of this Add-On will include detailed release notes with a full Changelog of any changes in behavior.
+Future versions of this extension will include detailed release notes with a full Changelog of any changes in behavior.
 
 Cheers,
 Paul

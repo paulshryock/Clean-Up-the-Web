@@ -4,7 +4,7 @@ Hi! 👋 Thanks for checking out this Firefox Add-On made by [Paul Shryock](http
 
 **Clean Up the Web** (CUTW) removes HTML content from websites which matches [certain CSS selectors](https://github.com/paulshryock/Clean-Up-the-Web/issues/1#issuecomment-723356971). These would typically be ads, cookie policy banners, and certain visual elements which in my opinion lend toward an unpleasant user experience. Like walking down the street and seeing trash on the sidewalk. 🗑️
 
-I plan to add small enhancements to CUTW which improve the accessibility, performance, or user experience of websites (nicely and unobtrusively), if and when time permits. I want to keep this Add-On lightweight and simple, so it's probably not as robust as other similar Add-Ons. I'm aiming for "Less is more".
+[Here is a roadmap of planned enhancements](https://github.com/paulshryock/Clean-Up-the-Web/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement) to CUTW, which will aim to improve the accessibility, security, performance, user experience, and user privacy of websites (nicely and unobtrusively).
 
 Any future versions of this Add-On will include detailed release notes with a full Changelog of any changes in behavior.
 

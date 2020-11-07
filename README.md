@@ -33,9 +33,10 @@ Main Add-On functionality is in `main.js`.
 
 ### npm scripts
 
-- `npm start`: Run the extension locally in a browser window
+- `npm start`: Lint source code and run extension in a browser window
+- `npm run run`: Run extension in a browser window
 - `npm run lint`: Lint source code
-- `npm run build`: Build the extension for production and output `.zip` file in `web-ext-artifacts/` directory
+- `npm run build`: Build extension `.zip` to `web-ext-artifacts/`
 - `npm run sign`: Sign the extension
 
 ### Signing the extension for distribution

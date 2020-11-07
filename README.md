@@ -15,9 +15,14 @@ Paul
 
 This is an open source project which uses the [The Hippocratic License][license].
 
-## Download
+## Latest release
 
-- [Latest release](https://addons.mozilla.org/en-US/android/addon/clean-up-the-web/) from the Firefox Add-On directory
+### Install
+
+- [Firefox Add-On](https://addons.mozilla.org/en-US/android/addon/clean-up-the-web/) from the Firefox Add-On directory
+
+### Download
+
 - [Binary and source code](https://github.com/paulshryock/Clean-Up-the-Web/releases/latest)
 
 ## Development

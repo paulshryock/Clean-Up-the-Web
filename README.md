@@ -27,6 +27,14 @@ This is an open source project which uses the [The Hippocratic License][license]
 
 - [Binary and source code](https://github.com/paulshryock/Clean-Up-the-Web/releases/latest) from GitHub
 
+## Contributing
+
+Please read the [Code of Conduct][code-of-conduct].
+
+You can report a bug, request a feature, ask a question, or offer feedback by creating a [New Issue](https://github.com/paulshryock/Clean-Up-the-Web/issues/new).
+
+If you'd like to contribute code, please read the [Code of Conduct][code-of-conduct] and [Contributing instructions][contributing], then fork the repository and use a feature branch. Pull requests are welcome.
+
 ## Development
 
 Main Add-On functionality is in `main.js`.
@@ -55,10 +63,6 @@ See [package.json](https://github.com/paulshryock/Clean-Up-the-Web/blob/main/pac
 1. Get new JWT tokens: https://addons.mozilla.org/en-US/developers/addon/api/key/
 2. Set `AMO_JWT_ISSUER` and `AMO_JWT_SECRET` environment variables
 3. Run `npm run sign`
-
-## Contributing
-
-If you'd like to contribute, please read the [Code of Conduct][code-of-conduct] and [Contributing instructions][contributing], then fork the repository and use a feature branch. Pull requests are welcome.
 
 [license]: https://firstdonoharm.dev/
 [code-of-conduct]: CODE_OF_CONDUCT.md

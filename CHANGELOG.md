@@ -15,7 +15,9 @@ and this project adheres to [Semantic Versioning][semver].
 ### Security
 -->
 
-## 1.0.2 - 2020-10-27 - Fixed DOM element removal, initial Firefox release
+## 1.0.2 - 2020-11-02 - Initial Firefox release, fixed DOM element removal
+
+[Install Firefox Add-On](https://addons.mozilla.org/en-US/android/addon/clean-up-the-web/)
 
 ### Changed
 - Update list of selectors to match [#8]

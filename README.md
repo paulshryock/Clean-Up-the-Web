@@ -30,6 +30,10 @@ Main Add-On functionality is in `main.js`.
     - Check if Node is installed: `node --version`
     - If Node is installed, you will see a version number, such as `v14.2.0`
     - If Node isn't installed, you can download and install it from [nodejs.org](https://nodejs.org/en/download/), or use a Node version manager such as [n](https://github.com/tj/n) or [nvm](https://github.com/nvm-sh/nvm)
+		
+#### Dependencies
+
+See [package.json](https://github.com/paulshryock/Clean-Up-the-Web/blob/main/package.json).
 
 ### npm scripts
 

@@ -1,8 +1,10 @@
-# Clean Up the Web
+<h1 align="center">Clean Up the Web</h1>
+
+<p align="center">[Install on Firefox](https://addons.mozilla.org/en-US/android/addon/clean-up-the-web/)</p>
+
+---
 
 Hi! 👋 Thanks for checking out this browser extension made by [Paul Shryock](https://github.com/paulshryock). I hope you find it useful!
-
-[Install on Firefox](https://addons.mozilla.org/en-US/android/addon/clean-up-the-web/)
 
 **Clean Up the Web** (CUTW) removes HTML content from websites which matches [certain CSS selectors](https://github.com/paulshryock/Clean-Up-the-Web/issues/8). These would typically be ads, cookie policy banners, and certain visual elements which in my opinion lend toward an unpleasant user experience. Like walking down the street and seeing trash on the sidewalk. 🗑️
 

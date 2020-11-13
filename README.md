@@ -6,7 +6,8 @@
 
 [Here is a roadmap of planned enhancements](https://github.com/paulshryock/Clean-Up-the-Web/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement) which will aim to improve the accessibility, security, performance, user experience, and user privacy of websites (nicely and unobtrusively). Future versions of this extension will include detailed release notes with a full Changelog of any changes in behavior.
 
-This browser extension is made by [Paul Shryock](https://github.com/paulshryock). 👋 I hope you find it useful! 
+This browser extension is made by [Paul Shryock](https://github.com/paulshryock).
+👋 I hope you find it useful! 
 
 ---
 

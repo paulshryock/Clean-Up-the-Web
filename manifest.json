@@ -4,13 +4,13 @@
   "manifest_version": 2,
   "version": "1.0.2",
   "icons": {
-    "48": "icon.svg",
-    "96": "icon.svg"
+    "48": "src/img/icon.svg",
+    "96": "src/img/icon.svg"
   },
   "content_scripts": [
     {
       "matches": ["*://*/*"],
-      "js": ["main.js"]
+      "js": ["src/js/main.js"]
     }
   ]
 }

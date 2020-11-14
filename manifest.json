@@ -10,7 +10,7 @@
   "content_scripts": [
     {
       "matches": ["*://*/*"],
-      "js": ["src/js/main.js"]
+      "js": ["dist/js/main.min.js"]
     }
   ]
 }

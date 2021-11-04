@@ -2,7 +2,7 @@
   "name": "Clean Up the Web",
   "description": "Firefox extension that cleans up the web.",
   "manifest_version": 2,
-  "version": "1.0.2",
+  "version": "1.1.0",
   "icons": {
     "48": "src/img/icon.svg",
     "96": "src/img/icon.svg"

@@ -1,4 +1,4 @@
-const attributes = ["id", "class"];
+const attributes = ["class", "data-component", "id"];
 const regexTypes = ["^", "$", "*", ""];
 const names = [
 	{ prefixSuffix: "ad" },
@@ -6,11 +6,14 @@ const names = [
 	{ prefixSuffix: "AD" },
 	{ contains: "adfuel" },
 	{ contains: "adblock" },
+	{ contains: "cookie" },
+	{ contains: "Cookiebot" },
 	{ contains: "DisplayAd" },
 	{ contains: "onetrust" },
 	{ contains: "sap-insights" },
-	{ contains: "cookie" },
 	{ exact: "taw" },
+	{ exact: "js-consent-banner" },
+	{ exact: "CookieBanner" },
 ];
 
 const separators = ["-", "_"];
@@ -48,7 +51,6 @@ attributes.forEach((attribute) => {
 		});
 	});
 });
-console.debug(selectors);
 
 /**
  * Get the latest group of DOM elements matching the selectors, loop through,

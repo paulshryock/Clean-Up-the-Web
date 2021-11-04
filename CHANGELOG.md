@@ -7,6 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## Unreleased
 
 ### Added
+
+### Changed
+
+### Deprecated
+
+### Removed
+
+### Fixed
+
+### Security
+
+## [1.1.0] - 2021-11-04
+
+### Added
 - Add a few more cookie banners.
 
 ### Changed
@@ -17,11 +31,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Removed
 - Remove console log.
 
-### Fixed
-
-### Security
-
-## [1.0.2](https://github.com/paulshryock/Clean-Up-the-Web/tree/v1.0.2) - 2020-11-02
+## [1.0.2] - 2020-11-02
 
 ### Changed
 - Update list of selectors to match [#8]

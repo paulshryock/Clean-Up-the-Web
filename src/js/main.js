@@ -40,9 +40,9 @@ attributes.forEach((attribute) => {
 						(regexType === "$" ? separator : "") +
 						(regexType === "*"
 							? name.contains
-							: (regexType === ""
-								? name.exact
-								: name.prefixSuffix)) +
+							: regexType === ""
+							? name.exact
+							: name.prefixSuffix) +
 						(regexType === "^" ? separator : "") +
 						'"]';
 					if (!selectors.includes(selector)) selectors.push(selector);

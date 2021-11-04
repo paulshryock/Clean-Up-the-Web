@@ -4,6 +4,7 @@ const names = [
 	{ prefixSuffix: "ad" },
 	{ prefixSuffix: "Ad" },
 	{ prefixSuffix: "AD" },
+	{ prefixSuffix: "advert" },
 	{ contains: "adfuel" },
 	{ contains: "adblock" },
 	{ contains: "cookie" },
